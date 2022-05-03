@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+    <!-- The navigation bar has responsive design to collapse in smaller screens. The navbar is fixed to the top of the page to facilitate user navigation. 
+        Home button will reset the page since it reloads the index page and is setup as demonstration purposes only. The same will happen for the Logo on the left of navbar
+        The login will collapse a div requesting username and password  -->
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
+            <div class="container">
+                <!-- Nav Bar Logo-->
+                <a class="navbar-logo" href="index.html"><img src="./imagens/logopreto.JPG"alt="Logo" class="barlogo"></a>
+                <!-- Nav Bar responsive collapse for smaller screens-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Nav Bar items-->
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Nav Bar home-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <!-- Nav Bar Login. Onced user is logged it changes from loggin to the greeting calling it by element id-->
+                        <li class="nav-item">
+                            <a id="About Us" class="nav-link login" href="#"><span class="oi oi-account-login link-icon"></span>About Us</a>                        
+                        </li>
+                        <li class="nav-item">
+                            <a id="Contact Us" class="nav-link login" href="#"><span class="oi oi-account-login link-icon"></span>Contact Us</a>                        
+                        </li>        
+                        <li class="nav-item">
+                            <a id="Portfolio" class="nav-link login" href="#"><span class="oi oi-account-login link-icon"></span>Portfolio</a>                        
+                        </li>    
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!-- Page content -->
+
+<!-- End of page content-->
+    <!-- Bootstrap 4 Dependencies -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./font/css/open-iconic-bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">    
+</body>
+</html>

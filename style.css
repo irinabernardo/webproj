@@ -57,9 +57,10 @@ body {
 }
 
 .row{
-    height: 15rem;
+    height: auto;
     overflow: hidden;
     margin: 5%;
+    
 }
 
 /*FADE IN CODE from Fade-in Image Transition Using CSS by Christina Perricone (@hubspot) on CodePen. https://codepen.io/hubspot/pen/xxqxoOa */
@@ -71,8 +72,11 @@ body {
     -ms-animation: fadeIn 5s;
     object-fit: fill ; 
     width: 100%;
-    
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 5px;  
   }
+
   @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}

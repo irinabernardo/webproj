@@ -1,6 +1,15 @@
+:root {
+  --left: translateX(-600px);
+  --right: translateX(600px); 
+}
+
 .navbar {
-    min-height: 115px;
+    min-height: 80px;
     background-color: rgb(25,53,77);
+    position: fixed;
+    z-index:100;
+    width: 100%;
+    
 }
     
 .link-icon {
@@ -37,17 +46,26 @@ body {
     }
 
 #banner{
-    background-color: blueviolet;
+    background-image: url("food.jpg");
+    background-repeat: no-repeat;
     height: 20em;
     text-align: center;
     color: aliceblue;
     padding: 10%;
+    background-size: cover;
 }
 
 .pageTitle{
     font-size: 300%;
     font-family: fantasy; 
 }
+
+.pageTitleSub{
+    font-size: 200%;
+    font-family: "Lucida Handwriting", serif;
+     
+}
+
 
 #intro{
     text-align: justify;
@@ -63,13 +81,13 @@ body {
     
 }
 
-/*FADE IN CODE from Fade-in Image Transition Using CSS by Christina Perricone (@hubspot) on CodePen. https://codepen.io/hubspot/pen/xxqxoOa */
-.fade-in-image {
-    animation: fadeIn 5s;
-    -webkit-animation: fadeIn 5s;
-    -moz-animation: fadeIn 5s;
-    -o-animation: fadeIn 5s;
-    -ms-animation: fadeIn 5s;
+/*FADE IN CODE adapted from Fade-in Image Transition Using CSS by Christina Perricone (@hubspot) on CodePen. https://codepen.io/hubspot/pen/xxqxoOa */
+.fade-in-left {
+    animation: fadeInL 4s;
+    -webkit-animation: fadeInL 4s;
+    -moz-animation: fadeInL 4s;
+    -o-animation: fadeInL 4s;
+    -ms-animation: fadeInL 4s;
     object-fit: fill ; 
     width: 100%;
     max-height: 100%;
@@ -77,27 +95,65 @@ body {
     border-radius: 5px;  
   }
 
-  @keyframes fadeIn {
-    0% {opacity:0;}
+  @keyframes fadeInL {
+    0% {opacity:0;transform: var(--left)}
     100% {opacity:1;}
   }
   
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
+  @-moz-keyframes fadeInL {
+    0% {opacity:0;transform: var(--left)}
     100% {opacity:1;}
   }
   
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
+  @-webkit-keyframes fadeInL {
+    0% {opacity:0;transform: var(--left)}
     100% {opacity:1;}
   }
   
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
+  @-o-keyframes fadeInL {
+    0% {opacity:0;transform: var(--left)}
     100% {opacity:1;}
   }
   
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
+  @-ms-keyframes fadeInL {
+    0% {opacity:0;transform: var(--left)}
+    100% {opacity:1;}
+  }
+
+  .fade-in-right {
+    animation: fadeInR 4s;
+    -webkit-animation: fadeInR 4s;
+    -moz-animation: fadeInR 4s;
+    -o-animation: fadeInR 4s;
+    -ms-animation: fadeInR 4s;
+    object-fit: fill ; 
+    width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    border-radius: 5px;  
+  }
+
+  @keyframes fadeInR {
+    0% {opacity:0;transform: var(--right)}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeInR {
+    0% {opacity:0;transform: var(--right)}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeInR {
+    0% {opacity:0;transform: var(--right)}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeInR {
+    0% {opacity:0;transform: var(--right)}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeInR {
+    0% {opacity:0;transform: var(--right)}
     100% {opacity:1;}
   }

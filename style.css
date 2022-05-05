@@ -58,6 +58,42 @@ body {
 
 .row{
     height: 15rem;
-    padding: 5%;
-    margin-top: 5%;
+    overflow: hidden;
+    margin: 5%;
 }
+
+/*FADE IN CODE from Fade-in Image Transition Using CSS by Christina Perricone (@hubspot) on CodePen. https://codepen.io/hubspot/pen/xxqxoOa */
+.fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    object-fit: fill ; 
+    width: 100%;
+    
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

@@ -1,36 +1,63 @@
 .navbar {
     min-height: 115px;
     background-color: rgb(25,53,77);
-    }
+}
     
-    .link-icon {
-        margin-right: 0.3em;
-    }
+.link-icon {
+    margin-right: 0.3em;
+}
     
+ 
     
-    
-    .btn {
+.btn {
         
-        border-right: none; /* Remove borders */
-        padding: 12px 16px; /* Some padding */
-        font-size: 16px; /* Set a font size */
-        cursor: pointer; /* Mouse pointer on hover */
-       }
+    border-right: none; /* Remove borders */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+}
       
     
-    .barlogo{height:90px;
+.barlogo{
+    height:90px;
+}
+    
+.navbar-logo {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+    
+body {
+    background-color: rgb(212, 224, 235);
     }
-    
-    .navbar-logo {
-            display: inline-block;
-            padding-top: 0rem;
-            padding-bottom: 0rem;
-            margin-right: 1rem;
-            font-size: 1.25rem;
-            line-height: inherit;
-            white-space: nowrap;
-        }
-    
-    body {
-          background-color: rgb(212, 224, 235);
-        }
+
+#banner{
+    background-color: blueviolet;
+    height: 20em;
+    text-align: center;
+    color: aliceblue;
+    padding: 10%;
+}
+
+.pageTitle{
+    font-size: 300%;
+    font-family: fantasy; 
+}
+
+#intro{
+    text-align: justify;
+    font-size: larger;
+    padding: 3%;
+
+}
+
+.row{
+    height: 15rem;
+    padding: 5%;
+    margin-top: 5%;
+}

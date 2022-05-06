@@ -1,4 +1,5 @@
 document.getElementById("pageRows").style.visibility = "hidden";
+
 window.onscroll = function() {myFunction()};
 
 let leftCol = document.getElementsByClassName("row-img-left");

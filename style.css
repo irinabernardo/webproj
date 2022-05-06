@@ -9,6 +9,7 @@
     position: fixed;
     z-index:100;
     width: 100%;
+    top:0;
     
 }
     
@@ -80,6 +81,23 @@ body {
     margin: 5%;
     
 }
+
+.thumbnail{
+    height: 200px;
+    object-fit: none;
+    object-position: 100% 0;
+    width: 100%;
+}
+.thumbnail:hover{
+    filter: grayscale(70%);
+    width: 110%;
+    height: auto;
+    transition: width 0.5s ease;
+    position: absolute;
+    top:-5%;
+    left: -5%;
+}
+
 
 /*FADE IN CODE adapted from Fade-in Image Transition Using CSS by Christina Perricone (@hubspot) on CodePen. https://codepen.io/hubspot/pen/xxqxoOa */
 .fade-in-left {

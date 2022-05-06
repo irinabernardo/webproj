@@ -20,16 +20,5 @@ function myFunction() {
 }  
 }
 
-//Images larger on click
-//img = document.getElementsByClassName("thumbnail");
-// Function to set image dimensions
-//function growImg() {
-    //for (let i = 0; i < img.length; i++) {     
-        $( ".thumbnail" ).click(function(){
-    img.style.width = "60%";
-    img.style.height = "auto";
-    img.style.transition = "width 0.5s ease";}
-);
-//}
-//}
+
 

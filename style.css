@@ -78,8 +78,15 @@ body {
 .row{
     height: auto;
     /*overflow: hidden;*/
-    margin: 5%;
+    margin: 3%;
     
+}
+
+h5{
+  padding-top: 8%;
+}
+p{
+  padding: 5%;
 }
 
 .thumbnail{

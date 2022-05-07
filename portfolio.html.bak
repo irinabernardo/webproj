@@ -51,7 +51,13 @@
     </div>
 <div class="container-fluid">    
     <div id="intro" class="container-sm">
-    <p>"Food brings people together on many different levels. It's the nourishment of the soul and body:It's truly love." - Giada De Laurentiis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non finibus ligula. 
+        Praesent consequat lorem et aliquet gravida. Phasellus pulvinar a justo id lacinia. 
+        Cras a mi nec felis volutpat varius. Donec at sapien sed leo vestibulum cursus. 
+        Vestibulum leo lectus, lobortis id vulputate vel, pretium ac ligula. Curabitur quis lacinia massa. Nulla quis volutpat lectus. 
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eget purus imperdiet, iaculis ligula sed, tristique turpis. 
+        Morbi varius velit sit amet urna sagittis aliquet. Integer malesuada urna et nisi ornare blandit. 
+        Pellentesque interdum nibh sed dolor tincidunt, eget consequat risus fermentum. Nam cursus nisi quis dapibus suscipit.</p>
     </div>
     <div class="row">
       <div class="col-md-3">

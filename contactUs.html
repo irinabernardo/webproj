@@ -59,20 +59,28 @@
 		<div id="form">
           <form class="row g-3">
             <div class="col-md-6">
+                <label for="inputName">Name:</label>
               <input type="text" class="form-control" id="inputName" placeholder="Name">
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" id="inputSurname" placeholder="Phone">
+                <label for="inputPhone">Phone:</label>
+              <input type="text" class="form-control" id="inputPhone" placeholder="Phone">
             </div>
+            <div class="col-md-12 warning" id="nameWarning">Name cannot be empty.</div>
+            
              <div class="col-6">
-                <input type="text" class="form-control" id="inputPhone" placeholder="Address">
-              </div>
+                <label for="inputAddress">Address:</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+              
+            </div>
               <div class="col-6">
+                <label for="inputEmail">Email:</label>
+                  
                 <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com">
             </div>
              
               <div class="col-12">
-                  <select class="form-select" aria-label="select" >
+                  <select class="form-select" aria-label="select" id="inputOccasion">
                     <option selected>What is the occasion for?</option>
                     <option value="1">Wedding</option>
                     <option value="2">Anniversary</option>
@@ -80,12 +88,13 @@
                     <option value="3">Corporate</option>
                     <option value="3">Christening</option>
                   </select>
-              </div>         
+              </div>
+              <div class="col-md-12 warning" id="occWarning">Enter the occasion.</div>         
               <div class="col-6">
                 <textarea class="form-control" id="InputMessage" rows="5" placeholder="Message"></textarea>
             </div>
             <div class="col-12">
-              <button onclick="sendMail();" type="submit" class="btn btn-primary">Send</button>
+              <button onclick="sendMail();" class="btn btn-primary">Send</button>
             </div>
           </form>
 </div>
@@ -98,9 +107,15 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script> 
+    
+    
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
     <!-- Javascript -->

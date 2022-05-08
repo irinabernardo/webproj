@@ -79,19 +79,19 @@
 			<br>We have a extremely pleasant work environment that bring inspiration and pleasure to met our goals.</p>
         </div>
         <div class="col-md-6 p-4 ps-md-0">
-            <img src="catering (1).jpg" class="row-img-right" alt="IMG DESLISANDO">
+            <img src="cat (1).jpg" class="row-img-right" alt="IMG DESLISANDO">
         </div>
     </div>
 
 <!-- Row 2: Kitchen-->      
     <div class="row g-10 position-relative">
         <div class="col-md-6 mb-md-50 p-md-4 ">
-          <img src="catering (12).jpg" class="row-img-left" alt="IMG DESLISANDO">
+          <img src="cat (12).jpg" class="row-img-left" alt="IMG DESLISANDO">
         </div>
         <div class="col-md-6 p-4 ps-md-0 row-img-right">
           <h5 class="mt-0">KITCHEN</h5>
-          <p>Our structure is highly sophisticated. We follow HACCP food management. 
-		  <br>We work safely, comply with the law, food hygiene and ensure the food our customers handle is safe to eat.</p>
+          <p>Morbi varius velit sit amet urna sagittis aliquet. Integer malesuada urna et nisi ornare blandit. 
+            Pellentesque interdum nibh sed dolor tincidunt, eget consequat risus fermentum. Nam cursus nisi quis dapibus suscipit</p>
         </div>
     </div>
 </div>

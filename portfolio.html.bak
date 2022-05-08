@@ -51,33 +51,39 @@
     </div>
 <div class="container-fluid">    
     <div id="intro" class="container-sm">
-    <p>"Food brings people together on many different levels. It's the nourishment of the soul and body:It's truly love." - Giada De Laurentiis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non finibus ligula. 
+        Praesent consequat lorem et aliquet gravida. Phasellus pulvinar a justo id lacinia. 
+        Cras a mi nec felis volutpat varius. Donec at sapien sed leo vestibulum cursus. 
+        Vestibulum leo lectus, lobortis id vulputate vel, pretium ac ligula. Curabitur quis lacinia massa. Nulla quis volutpat lectus. 
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur eget purus imperdiet, iaculis ligula sed, tristique turpis. 
+        Morbi varius velit sit amet urna sagittis aliquet. Integer malesuada urna et nisi ornare blandit. 
+        Pellentesque interdum nibh sed dolor tincidunt, eget consequat risus fermentum. Nam cursus nisi quis dapibus suscipit.</p>
     </div>
     <div class="row">
       <div class="col-md-3">
         <div class="thumbnail">
 
-            <img src="catering (1).jpg" alt="Catering 1" style="width:100%" id="img1">
+            <img src="cat (1).jpg" alt="Catering 1" style="width:100%" id="img1">
 
         </div>
       </div>
       <div class="col-md-3">
         <div class="thumbnail">
 
-            <img src="catering (2).jpg" alt="Catering 2" style="width:100%" id="img2">
+            <img src="cat (2).jpg" alt="Catering 2" style="width:100%" id="img2">
         </div>
       </div>
       <div class="col-md-3">
         <div class="thumbnail">
          
-            <img src="catering (3).jpg" alt="Catering 3" style="width:100%" id="img3">
+            <img src="cat (3).jpg" alt="Catering 3" style="width:100%" id="img3">
 
         </div>
       </div>
       <div class="col-md-3">
         <div class="thumbnail">
         
-            <img src="catering (4).jpg" alt="Catering 4" style="width:100%" id="img4">
+            <img src="cat (4).jpg" alt="Catering 4" style="width:100%" id="img4">
 
         </div>
       </div>
@@ -86,27 +92,27 @@
         <div class="col-md-3">
           <div class="thumbnail">
   
-              <img src="catering (5).jpg" alt="Catering 5" style="width:100%" id="img5">
+              <img src="cat (5).jpg" alt="Catering 5" style="width:100%" id="img5">
   
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
   
-              <img src="catering (6).jpg" alt="Catering 6" style="width:100%" id="img6">
+              <img src="cat (6).jpg" alt="Catering 6" style="width:100%" id="img6">
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
            
-              <img src="catering (7).jpg" alt="Catering 7" style="width:100%" id="img7">
+              <img src="cat (7).jpg" alt="Catering 7" style="width:100%" id="img7">
   
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
           
-              <img src="catering (8).jpg" alt="Catering 8" style="width:100%" id="img8">
+              <img src="cat (8).jpg" alt="Catering 8" style="width:100%" id="img8">
   
           </div>
         </div>
@@ -115,27 +121,27 @@
         <div class="col-md-3">
           <div class="thumbnail">
   
-              <img src="catering (9).jpg" alt="Catering 9" style="width:100%" id="img9">
+              <img src="cat (9).jpg" alt="Catering 9" style="width:100%" id="img9">
   
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
   
-              <img src="catering (10).jpg" alt="Catering 10" style="width:100%" id="img10">
+              <img src="cat (10).jpg" alt="Catering 10" style="width:100%" id="img10">
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
            
-              <img src="catering (11).jpg" alt="Catering 11" style="width:100%" id="img11">
+              <img src="cat (11).jpg" alt="Catering 11" style="width:100%" id="img11">
   
           </div>
         </div>
         <div class="col-md-3">
           <div class="thumbnail">
           
-              <img src="catering (12).jpg" alt="Catering 12" style="width:100%" id="img12">
+              <img src="cat (12).jpg" alt="Catering 12" style="width:100%" id="img12">
   
           </div>
         </div>

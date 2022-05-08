@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dai-B Catering</title>
+    <title>Contact Us</title>
 </head>
 <body>
 <!-- Navigation Bar -->
     <!-- The navigation bar has responsive design to collapse in smaller screens. The navbar is fixed to the top of the page to facilitate user navigation. 
         Home button will reset the page since it reloads the index page and is setup as demonstration purposes only. The same will happen for the Logo on the left of navbar
         The login will collapse a div requesting username and password  -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark static-top">
             <div class="container">
                 <!-- Nav Bar Logo-->
                 <a class="navbar-logo" href="index.html"><img src="./logoDBC.png"alt="Logo" class="barlogo"></a>
@@ -24,16 +24,15 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <!-- Nav Bar home-->
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>   
                         </li>
                         <li class="nav-item">
                             <a id="About Us" class="nav-link login" href="aboutUs.html"><span class="oi oi-account-login link-icon"></span>About Us</a>                        
                         </li>
-                        <li class="nav-item">
-                            <a id="Contact Us" class="nav-link login" href="contactUs.html"><span class="oi oi-account-login link-icon"></span>Contact Us</a>                        
+                        <li class="nav-item active">
+                            <a id="Contact Us" class="nav-link login" href="contactUs.html"><span class="oi oi-account-login link-icon"></span>Contact Us                       
+                            <span class="sr-only">(current)</span></a> 
                         </li>        
                         <li class="nav-item">
                             <a id="Portfolio" class="nav-link login" href="portfolio.html"><span class="oi oi-account-login link-icon"></span>Portfolio</a>                        
@@ -46,56 +45,50 @@
 <!-- Page content -->
 <!--.container-fluid used to hold content of page since it sets width: 100% at all breakpoints -->
 
-    <div id="banner">
-        <div class="pageTitle">Dai-B Catering</div>
-        <div class="pageTitleSub">Feeding your dreams!</div>
-    </div>
-<div class="container-fluid">    
-    <div id="intro" class="container-sm">
-    <p>Dai-B Catering have provided the finest in catering excellence since 2002. 
-	When two chefs decided to showcase their best knowledge of food and offer Ireland the best food and service experience, they created Dai-B Catering. 
-	<br>Since then they have succesfully provided the best quality of service and food. We are a motivated and dedicated team.<br> 
-	Does not matter your event, we will make it special and unique.</p>
-    </div>
-<!-- Page rows -->
-<!-- Row 1: MENU-->
-    <div id="pageRows">
-    <div class="row g-10 position-relative">
-        <div class="col-md-6 mb-md-0 p-md-4">
-          <img src="food.jpg" class="row-img-left" alt="...">
+        <div id="banner">
+            <div class="pageTitle">Contact Us</div>
+			<div class="pageTitleSub">Dai-B Catering</div>
         </div>
-        <div class="col-md-6 p-4 ps-md-0 row-img-right";>
-          <h5 class="mt-0">MENU</h5>
-          <p>Inspired by traditional Irish cuisine, from the finger-food to the special menu. 
-		  <br> We use freshest ingredients teamed with innovative recipes and a dedication to great food.</p>
+<div class="container-fluid">        
+        <div id="intro" class="container-sm">
+        <p>Praesent consequat lorem et aliquet gravida. Phasellus pulvinar a justo id lacinia. 
+        </p>
         </div>
-    </div>
-
-<!-- Row 2: Staff-->       
-    <div class="row g-0 position-relative">
-        <div class="col-md-6 mb-md-0 p-md-4 row-img-left">
-            <h5 class="mt-0">STAFF</h5>
-            <p >We have an incredible team of professionals with experience and passion. 
-			<br>We have a extremely pleasant work environment that bring inspiration and pleasure to met our goals.</p>
-        </div>
-        <div class="col-md-6 p-4 ps-md-0">
-            <img src="catering (1).jpg" class="row-img-right" alt="IMG DESLISANDO">
-        </div>
-    </div>
-
-<!-- Row 2: Kitchen-->      
-    <div class="row g-10 position-relative">
-        <div class="col-md-6 mb-md-50 p-md-4 ">
-          <img src="catering (12).jpg" class="row-img-left" alt="IMG DESLISANDO">
-        </div>
-        <div class="col-md-6 p-4 ps-md-0 row-img-right">
-          <h5 class="mt-0">KITCHEN</h5>
-          <p>Our structure is highly sophisticated. We follow HACCP food management. 
-		  <br>We work safely, comply with the law, food hygiene and ensure the food our customers handle is safe to eat.</p>
-        </div>
-    </div>
+<!--PageForm-->
+		<div id="form">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="inputSurname" placeholder="Phone">
+            </div>
+             <div class="col-6">
+                <input type="text" class="form-control" id="inputPhone" placeholder="Address">
+              </div>
+              <div class="col-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="name@email.com">
+            </div>
+             
+              <div class="col-12">
+                  <select class="form-select" aria-label="select" >
+                    <option selected>Who is the occasion for?</option>
+                    <option value="1">Wedding</option>
+                    <option value="2">Anniversary</option>
+                    <option value="3">Birthday</option>
+                    <option value="3">Corporate</option>
+                    <option value="3">Christening</option>
+                  </select>
+              </div>         
+              <div class="col-6">
+                <textarea class="form-control" id="InputMessage" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div class="col-12">
+              <button onclick="sendMail();" type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </form>
 </div>
-</div>    
+<!-- Page content -->
 
 <!-- End of page content-->
     <!-- Bootstrap 4 Dependencies -->
@@ -109,8 +102,7 @@
         crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
-    <!-- JS -->
     <!-- Javascript -->
-    <script src="./script.js"></script>   
+    <script src="./emailScript.js"></script>      
 </body>
 </html>
